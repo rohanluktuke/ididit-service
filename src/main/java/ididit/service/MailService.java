@@ -21,7 +21,7 @@ public class MailService {
 		
 		MimeMessagePreparator messagePreparator = mimeMessage -> {
 			MimeMessageHelper messageHelper = new MimeMessageHelper(mimeMessage);
-			messageHelper.setFrom("rohanluktuke@gmail.com");
+			messageHelper.setFrom("mailer@ididit.com");
 			messageHelper.setTo(recipient);
 			messageHelper.setSubject("Time to post your accomplishments!");
 			messageHelper.setText(message, true);

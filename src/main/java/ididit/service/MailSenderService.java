@@ -17,7 +17,7 @@ public class MailSenderService implements ApplicationRunner {
 	@Override
 	public void run(ApplicationArguments arg0) throws Exception {
 		System.out.println("Sending message ...");
-		client.prepareAndSend("rohanluktuke@gmail.com", contentBuilder.build("Rohan"));
+		client.prepareAndSend("test@test.com", contentBuilder.build("Rohan"));
 	}
 	
 }
